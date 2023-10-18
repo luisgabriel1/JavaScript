@@ -1,0 +1,122 @@
+/* Definições para o corpo da página o (body) */
+body {
+    background-color: #004366;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilize o contêiner de login */
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 80px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Estilize o título */
+h1 {
+    color: #004366;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+
+/* Estilize a img */
+img{
+    width: auto;
+    height: 180px;
+    padding-bottom: 20px;
+}
+
+
+/* Estilize os rótulos dos campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #004366;
+    font-weight: bold;
+}
+
+
+/* Estilize os campos de entrada */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #004366;
+    border-radius: 10px;
+}
+
+
+/* Estilize o botão */
+input[type="submit"] {
+    background-color: #004366;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #002743;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 740px) {
+    .login-container {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login-container {
+        padding: 35px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    img {
+        height: 110px;
+    }
+
+    input[type="submit"] {
+        padding: 6px 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .login-container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    img {
+        height: 70px;
+    }
+
+    input[type="submit"] {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+}
